@@ -1,0 +1,34 @@
+
+   .bold-happs{
+    font-weight: bold;
+   }
+
+   #msg-min-amount{
+    /*float: right;*/
+    font-size: 12px;
+    color: black;
+}
+   .happs-buy-details tr td{
+   padding: 10px;
+   font-size: 16px;
+   }
+
+   .happs-buy-details tr{
+   border-bottom: 1px solid #d5caca;
+   }
+
+   .happs-convert-btn{
+    width: 180px!important;
+    background-color: #f0b913!important;
+    border-radius: 5px;
+   }
+
+   .happs-convert-btn:hover{transform: scale(1.1);}
+/* ------------ */
+
+
+   .happs-list {
+    overflow-y: auto;
+    max-height: 172px;
+}
+/* ------------ */

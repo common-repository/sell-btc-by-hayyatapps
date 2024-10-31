@@ -1,0 +1,156 @@
+button.happs-buy-btn, button.happs-buy-btn:not(:hover):not(:active):not(.has-background), 
+button.happs-buy-btn:hover, button.happs-buy-btn:focus {
+    background-color: #3f51b5;
+    color: #ffffff;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    font-family: Karla;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: unset;
+    outline: none;
+    max-width: 300px;
+    margin: auto;
+}
+
+ 
+
+.happs-list-btn {
+    width: 100%;
+    max-width: 241px;
+    /* height: 53px; */
+    border: 1px solid black;
+    text-align: left;
+    box-sizing: initial;
+    padding: 12px 16px;
+    /* float: left; */
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+
+    margin-bottom: 6px;
+}
+
+.happs-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%!important;
+  min-width: 250px!important;
+  padding: 0 22px 0 0;
+  max-width: 250px;
+}
+
+.happs-list {
+     display: none; 
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    width: 100%;
+    max-width: 280px;
+        font-family: Karla;
+        text-align: left;
+        font-size: 16px;
+        box-sizing: unset;
+
+}
+
+.happs-list .happs-menu-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+
+.happs-list .happs-menu-item:hover {background-color: #ddd;}
+
+/*.happs-dropdown:hover .happs-list {display: block;}*/
+
+.happs-dropdown:hover .happs-list-btn {background-color: #e2e2e2;}
+
+.happs-icons {
+    /* width: 30px; */
+    height: 30px!important;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 12px;
+}
+
+.happs-menu-item::before, .happs-menu-item::after,.happs-icons::before, .happs-icons::after {
+    box-sizing: unset;
+}
+
+
+.happs-list-btn .happs-icons {margin-top: -4px;}
+.happs-down-arrow{float: right!important;}
+
+
+.happs-noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+/*================*/
+.input-table-happs{
+      width: 100%;
+      font-size: 16px;
+      border: 0!important;
+   }
+
+.show-happs{display: block!important;}
+
+.input-table-happs tr td{padding: 1px;border: 0px solid;}
+.input-table-happs tr td:nth-child(1){text-align: left;}
+.input-table-happs tr td:nth-child(2){text-align: right;float: right;}
+
+.order-form-happs{font-size: 16px;text-align: left;}
+.order-form-happs tr td{padding: 1px;border: 0px solid;padding-bottom: 12px;}
+
+@media screen and (max-width: 600px) {
+.input-table-happs tr td{display: block;width: 100%;}
+.input-table-happs tr td:nth-child(1){text-align: center;}
+.input-table-happs tr td:nth-child(2){text-align: center;float: revert();}
+
+.input-table-happs tr td{padding: 5px;}
+button.happs-buy-btn{width: 85%!important;}
+
+
+.order-form-happs tr td{display: block;width: 100%;}
+.order-form-happs tr td{text-align: center;}
+
+
+
+}
+
+
+    #hayyatapps-amount, input.happs-orderform[type="text"] {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 0;
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px;
+    padding: 12px 11px;
+    min-width: 250px;
+    color: black;
+}
+    #hayyatapps-amount,input.happs-orderform[type="text"]:focus{
+       outline: none;
+       /*border-bottom: 2px solid blue;*/
+    }
